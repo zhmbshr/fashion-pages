@@ -1,0 +1,331 @@
+@import url(../font/font/iranyekan/fonts.css);
+
+/* header */
+#conteiner-admin #main-admin #header-admin .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #header-admin .header span{
+    color:#495057;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec a{
+    color:#343A40;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec span{
+    color:#74788D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec span:nth-child(3){
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+/* properties table */
+#conteiner-admin #main-admin #orders-admin{
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .search{
+    width: 361px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .search label{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #74788D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .search label input{
+    width: 303px;
+    border: solid #CED4DA 1px;
+    border-radius: 4px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .show-page{
+    width: 147px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .show-page label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #74788D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .show-page select option{
+    background-color: white;
+    color: black;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .add-delete{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .add-delete a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #556EE6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .add-delete .delete{
+    width: 97px;
+    height: 38px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .add-delete .add{
+    width: 147px;
+    height: 38px;
+    gap: 10px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table{
+    border: 1px solid;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table thead th{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    width:16%;
+    border-left: hidden;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table thead th:last-child{
+    border-left: solid #EFF2F7 1px;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr{
+    height: 52px;
+}
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td{
+    color: #495057;
+    font-size: 13px;
+    border-left: hidden;
+    border-bottom: 1px solid #EFF2F7;
+   
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td a{
+    width: 90px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #556EE6;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td a span{
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+}
+
+#conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td:last-child{
+    border-left: solid #EFF2F7 1px;
+}
+
+#conteiner-admin #main-admin  #orders-admin #orders-sec1 .under-table{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin  #orders-admin #orders-sec1 .under-table span{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(73, 80, 87);
+}
+
+#conteiner-admin #main-admin  #orders-admin #orders-sec1 .under-table .section-2{
+    width: 170px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteiner-admin #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li{
+    text-decoration: none;
+    color: rgba(116, 120, 141, 1);
+    border: 1px solid rgba(239, 242, 247, 1);
+    width: 56px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li:first-child{
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li:last-child{
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li a{
+    color: #74788D;
+    text-decoration: none;
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li:nth-child(2){
+    background-color: rgba(85, 110, 230, 1);
+    width: 32px;
+    border: hidden;
+    
+}
+
+#conteiner-admin  #main-admin  #orders-admin #orders-sec1 .under-table .section-2 li:nth-child(3){
+    width: 32px;
+    
+}
+
+#conteiner-admin #main-admin  #orders-admin #orders-sec1 .under-table .section-2 ul li a:nth-child(2){
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 655px){
+
+    #conteiner-admin #main-admin  #orders-admin #orders-sec1 .search-bar .search label input{
+        width: calc(100% - 50px);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #conteiner-admin #main-admin #header-admin .header{
+        height: 53px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #conteiner-admin #main-admin  #orders-admin #orders-sec1 .search-bar{
+        width: 100%;
+        height: 93px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    #conteiner-admin #main-admin  #orders-admin #orders-sec1 .search-bar .search label input{
+        width: calc(100% - 50px);
+    }
+
+    #conteiner-admin #main-admin #orders-admin #orders-sec1 .search-bar .search{
+        width: 100%;
+    }
+
+    #conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td{
+        font-size: 11px;
+    }
+
+    #conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table thead th{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table thead th:nth-child(3) {
+        display: none;
+    }
+
+    #conteiner-admin #main-admin #orders-admin #orders-sec1 .orders-table table tbody tr td:nth-child(3) {
+        display: none;
+    }
+}
+

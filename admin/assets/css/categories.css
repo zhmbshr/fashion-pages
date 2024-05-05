@@ -1,0 +1,329 @@
+@import url(../font/font/iranyekan/fonts.css);
+
+/* header */
+#conteiner-admin #main-admin #header-admin .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #header-admin .header span{
+    color:#495057;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec a{
+    color:#343A40;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec span{
+    color:#74788D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#conteiner-admin #main-admin #header-admin .header .left-sec span:nth-child(3){
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/* categories-sec */
+#conteiner-admin #main-admin #categories-admin{
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .add-showPage{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .add-showPage a{
+    width: 147px;
+    height: 38px;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #556EE6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .add-showPage .show-page{
+    width: 147px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .add-showPage .show-page label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #74788D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .add-showPage .show-page select option{
+    background-color: white;
+    color: black;
+}
+
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item{
+    width: 18.3%;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #EFF2F7 1px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .top-item{
+    width: 100%;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .top-item span:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    color: #495057;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .top-item span:nth-child(2){
+    font-size: 13px;
+    font-weight: 700;
+    color: #4561E8;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .bottom-item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid #EFF2F7 1px;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .bottom-item a{
+    width: 90px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #556EE6;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item .bottom-item a span{
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+#conteiner-admin #main-admin  #categories-admin #categories-sec1 .under-table{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .under-table span{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(73, 80, 87);
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .under-table .section-2{
+    width: 170px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .under-table .section-2 li{
+    text-decoration: none;
+    color: rgba(116, 120, 141, 1);
+    border: 1px solid rgba(239, 242, 247, 1);
+    width: 56px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 li:first-child{
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+
+#conteiner-admin  #main-admin #comment-admin #comment-sec1 .under-table .section-2 li:last-child{
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 li a{
+    color: #74788D;
+    text-decoration: none;
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 li:nth-child(2){
+    background-color: rgba(85, 110, 230, 1);
+    width: 32px;
+    border: hidden;
+    
+}
+
+#conteiner-admin  #main-admin #categories-admin #categories-sec1 .under-table .section-2 li:nth-child(3){
+    width: 32px;
+    
+}
+
+#conteiner-admin #main-admin #categories-admin #categories-sec1 .under-table .section-2 ul li a:nth-child(2){
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 875px){
+
+    #conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item{
+        height: 161px;
+    }
+}
+
+
+@media screen and (max-width: 736px){
+
+    #conteiner-admin #main-admin #header-admin .header{
+        height: 53px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .item{
+        width: 100%;
+        height: 232px;
+    }
+
+    #conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    #conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .row1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #conteiner-admin #main-admin #categories-admin #categories-sec1 .categories-typeOf .row2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

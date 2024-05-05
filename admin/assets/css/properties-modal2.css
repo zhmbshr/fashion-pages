@@ -1,0 +1,67 @@
+@import url(../font/font/iranyekan/fonts.css);
+
+
+body{
+    background-color: whitesmoke;
+    
+}
+#properties-modal{
+    width: 432px;
+    padding: 0 24px 24px 24px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#properties-modal .sec1{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#properties-modal .sec1 span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #495057;
+}
+
+#properties-modal .sec1 i{
+    color:#495057;
+}
+
+#properties-modal .sec2{
+    width: 100%;
+}
+
+#properties-modal .sec3 {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#properties-modal .sec3 span{
+    width: 112px;
+    height: 40px;
+    text-align: center;
+    line-height:38px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#properties-modal .sec3 .delete{
+    background-color: #556EE6;
+}
+
+#properties-modal .sec3 .accept{
+    background-color: #34C38F;
+}
+
+
